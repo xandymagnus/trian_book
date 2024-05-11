@@ -1,0 +1,37 @@
+.contact {
+    background-color: var(--white);
+    padding: 1em;
+}
+
+.contact__title,
+.contact__text {
+    background: var(--blue-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contact__title {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0.5em 0 0 2em;
+}
+
+.contact__text {
+    font-weight: 300;
+    padding: 0.5em 0;
+}
+
+.contact__gmail {
+    padding: 1em 1em;
+    border: 1px solid var(--highlight-blue);
+    border-radius: 24px;
+    width: 90%;
+}
+
+.contact__gmail::placeholder {
+    font-family: var(--main-font);
+    color: var(--highlight-blue);
+    background: url("/image/gmail\ folder.svg") no-repeat;
+    padding-left: 2.5em;
+}

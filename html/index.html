@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TrianBooks</title>
+    
+    <link rel="stylesheet" href="../css/reset.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="../css/styles/styles.css">
+</head>
+
+<body>
+
+    <header class="heading">
+        <div class="container">
+            <input class="container__button" type="checkbox" id="menu">
+            <label for="menu">
+                <span class="heading__menu-hamburger container__img"></span>
+            </label>
+            <ul class="menu-list">  
+                <li class="menu-list__title">Categories</li>
+
+                <li class="menu-list__item">
+                    <a class="menu-list__link" href="#">Program</a>
+                </li>
+
+                <li class="menu-list__item">
+                    <a class="menu-list__link" href="#">Front-end</a>
+                </li>
+
+                <li class="menu-list__item">
+                    <a class="menu-list__link" href="#">Infrastructure</a>
+                </li>
+
+                <li class="menu-list__item">
+                    <a class="menu-list__link" href="#">Business</a>
+                </li>
+
+                <li class="menu-list__item">
+                    <a class="menu-list__link" href="#">Design & UX</a>
+                </li>
+                
+            </ul>
+            <img src="../image/logo.svg" alt="AluraBooks Logo" class="container__img">
+
+            <h1 class="title__container"><b class="title__container--bolded">Trian</b>Books</h1>
+        </div>
+
+        <ul class="options">
+            <input class="button__options" type="checkbox" id="menu-options">
+            <label for="menu-options">
+                <li class="options__items">Category</li>
+            </label>
+
+            <ul class="menu-list">
+                <li class="menu-list__item"><a class="menu-list__link" href="#">Program</a></li>
+                <li class="menu-list__item"><a class="menu-list__link" href="#">Front-end</a></li>
+                <li class="menu-list__item"><a class="menu-list__link" href="#">Infrastructure</a></li>
+                <li class="menu-list__item"><a class="menu-list__link" href="#">Business</a></li>
+                <li class="menu-list__item"><a class="menu-list__link" href="#">Design & UX</a></li>
+            </ul>
+
+            <li class="options__items"><a class="options__link" href="#">Favorites</a></li>
+            <li class="options__items"><a class="options__link" href="#">My bookshelf</a></li>
+        </ul>
+
+        <div class="container">
+            <a href="#"><img class="container__img container__img-none" src="../image/favorites.svg" alt="My Favorites"></a>
+            <a href="#"><img class="container__img" src="../image/shopping.svg" alt="Shopping Cart"></a>
+            <a href="#"><img class="container__img" src="../image/users.svg" alt="My Profile"></a>
+        </div>
+
+    </header>
+
+    <section class="banner">
+
+        <h2 class="banner__title">Do you know where to start?</h2>
+        <p class="banner__paragraph">Find what you need for your development on our shelf!</p>
+
+        <input class="banner__search" type="search" placeholder="What's your next reading experience?">
+    </section>
+
+    <section class="carousel">
+        <h2 class="carousel__title">New releases</h2>
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="/image/carousels/managing.svg" alt="Managing book"></div>
+              <div class="swiper-slide"><img src="/image/carousels/Ageismetrics.svg" alt="Ageis metrics"></div>
+              <div class="swiper-slide"><img src="/image/carousels/Nodejs.svg" alt="Node.js img"></div>
+              <div class="swiper-slide"><img src="/image/carousels/ApacheKafka.svg" alt="Apache Kafka img"></div>
+              <div class="swiper-slide"><img src="/image/carousels/Tuning.svg" alt="Tuning image"></div>
+              <div class="swiper-slide"><img src="/image/carousels/ReactNative.svg" alt="React Native banner"></div>
+              ...
+            </div>
+          
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+          </div>
+          
+          <div class="card">
+            <div class="card__description">
+                <div class="description">
+
+                    <h3 class="title__description">Maybe you're also interested in...</h3>
+                    <h2 class="title__description-book">Angular 11 and Firebase</h2>
+
+                    <p text__description>Building an application integrated with the Google platform.</p>
+
+                </div>
+
+                <img class="image__description" src="/image/Angular.svg" alt="Angular img; symbol of an 'a'">
+
+            </div>
+            <div class="card__buttons">
+              <ul class="buttons">
+
+                  <li class="buttons__item"><img src="/image/favorites.svg" alt="Favorite books"></li>
+                  <li class="buttons__item"><img src="/image/shopping.svg" alt="Shopping cart"></li>
+                  
+                </ul>
+                <a class="anchor__button" href="#">Learn more</a>
+  
+            </div>
+          </div>
+
+    </section>
+
+    <section class="carousel">
+        <h2 class="carousel__title">Best seller</h2>
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="/image/carousels/MEAN.svg" alt="MEAN course img"></div>
+              <div class="swiper-slide"><img src="/image/carousels/Angular.svg" alt="Angular img"></div>
+              <div class="swiper-slide"><img src="/image/carousels/Accessibility.svg" alt="Image written Accessibility in Web"></div>
+              <div class="swiper-slide"><img src="/image/carousels/Front-end Guide.svg" alt="Front-end img; has pencil and ruler in image"></div>
+              ...
+            </div>
+          
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+          </div>
+
+          <div class="card">
+
+            <img src="/image/stars.svg" alt="five simetral stars img">
+
+            <div class="card__description">
+                <div class="description">
+                    <h3 class="title__description">Author of the month</h3>
+                    <h2 class="title__description-book">Juliana Agarikov</h2>
+                    <p text__description>A systems analyst and writer, Juliana specializes in Front-End.</p>
+                </div>
+
+                <img class="image__description" src="/image/writer profile.svg" alt="Angular img; symbol of an 'a'">
+
+            </div>
+            <div class="card__buttons">
+              <ul class="buttons">
+                  <li class="buttons__item"><img src="/image/favorites.svg" alt="Favorite books"></li>
+                  <li class="buttons__item"><img src="/image/shopping.svg" alt="Shopping cart"></li>
+                </ul><a class="anchor__button" href="#">Learn more</a>
+  
+            </div>
+    </section>
+
+    <section class="topics">
+
+        <h2 class="topics__title">Recently visited topics</h2>
+
+        <ul class="topics__list">
+            <li class="topics__item"><a class="topics__links" href="#">Android</a></li>
+            <li class="topics__item"><a class="topics__links" href="#">Digital Marketing</a></li>
+            <li class="topics__item"><a class="topics__links" href="#">Agile</a></li>
+            <li class="topics__item"><a class="topics__links" href="#">Startups</a></li>
+            <li class="topics__item"><a class="topics__links" href="#">HTML & CSS</a></li>
+            <li class="topics__item"><a class="topics__links" href="#">Python</a></li>
+            <li class="topics__item"><a class="topics__links" href="#">OO</a></li>
+            <li class="topics__item"><a class="topics__links" href="#">Java</a></li>
+        </ul>
+
+    </section>
+
+    <section class="contact">
+        <h2 class="contact__title">Stay up to date with the news!</h2>
+        <p class="contact__text">E-book updates, new books, promotions and more.</p>
+
+        <input class="contact__gmail" type="gmail" placeholder="Register your gmail">
+    </section>
+
+    <hr/>
+
+    <footer>
+        <h2 class="footer__title">Our Group</h2>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        }
+        });
+    </script>
+</body>
+
+</html>
