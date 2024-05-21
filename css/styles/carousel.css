@@ -98,3 +98,37 @@
         margin: 2em auto;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .carousel__container {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .swiper-pagination {
+        position: initial;
+        margin: 1em 0;
+    }
+
+    .card {
+        width: 60%;
+        margin-left: 3em;
+    }
+
+    .description {
+        margin-right: 2em;
+    }
+
+    .title__description {
+        font-size: 32px;
+    }
+
+    .text__discription {
+        font-size: 16px;
+    }
+}
