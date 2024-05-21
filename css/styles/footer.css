@@ -6,3 +6,39 @@ footer {
     background-color: var(--white);
     padding: 1em;
 }
+
+.footer-list {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer-list {
+        display: block;
+    }
+
+    .footer__title {
+        font-size: 24px;
+    }
+
+    .footer-list__title {
+        font-size: 14px;
+        color: var(--gray);
+    }
+
+    .footer-list__item {
+        display: flex;
+        align-items: center;
+        margin: 0.6em 0;
+    }
+
+    .footer-list__link {
+        text-decoration: none;
+        color: var(--gray);
+        margin-left: 0.6em;
+    }
+}
