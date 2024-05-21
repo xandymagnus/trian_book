@@ -47,7 +47,7 @@
                 </li>
                 
             </ul>
-            <img src="../image/logo.svg" alt="AluraBooks Logo" class="container__img">
+            <img class="container__img" src="../image/logo.svg" alt="AluraBooks Logo">
 
             <h1 class="title__container"><b class="title__container--bolded">Trian</b>Books</h1>
         </div>
@@ -71,9 +71,19 @@
         </ul>
 
         <div class="container">
-            <a href="#"><img class="container__img container__img-none" src="../image/favorites.svg" alt="My Favorites"></a>
-            <a href="#"><img class="container__img" src="../image/shopping.svg" alt="Shopping Cart"></a>
-            <a href="#"><img class="container__img" src="../image/users.svg" alt="My Profile"></a>
+            <a href="#">
+                <img class="container__img container__img-none" src="../image/favorites.svg" alt="My Favorites">
+            </a>
+            
+            <a class="container__link" href="#">
+                <img class="container__img" src="../image/shopping.svg" alt="Shopping Cart">
+                <p class="container__paragraph">My bag</p>
+            </a>
+            
+            <a class="container__link" href="#">
+                <img class="container__img" src="../image/users.svg" alt="My Profile">
+                <p class="container__paragraph">My profile</p>
+            </a>
         </div>
 
     </header>
@@ -88,6 +98,9 @@
 
     <section class="carousel">
         <h2 class="carousel__title">New releases</h2>
+
+        <div class="carousel__container">
+
         <div class="swiper">
             <div class="swiper-pagination"></div>
 
@@ -131,11 +144,14 @@
   
             </div>
           </div>
-
+        </div>
     </section>
 
     <section class="carousel">
         <h2 class="carousel__title">Best seller</h2>
+
+        <div class="carousel__container">
+
         <div class="swiper">
             <div class="swiper-pagination"></div>
 
@@ -171,8 +187,8 @@
                   <li class="buttons__item"><img src="/image/favorites.svg" alt="Favorite books"></li>
                   <li class="buttons__item"><img src="/image/shopping.svg" alt="Shopping cart"></li>
                 </ul><a class="anchor__button" href="#">Learn more</a>
-  
             </div>
+        </div>
     </section>
 
     <section class="topics">
